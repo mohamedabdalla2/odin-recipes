@@ -1,12 +1,17 @@
-ul, ol {
-    list-style:none;
-    padding:0;
-    margin:0;
-    display:flex;
-    flex-wrap:wrap;
+body {
+    background-color:rgb(247, 232, 28);
 }
 
-li{
-    flex:1;
-    margin: right 20px; /* Adjust spacing between columns as needed */
+.ingredients-cake, .ingredients-icing {
+    padding: 0 300px;
+    display:inline-block;
+
+}
+
+ul{
+
+    list-style:square;
+    padding:0;
+    margin:0;
+
 }
